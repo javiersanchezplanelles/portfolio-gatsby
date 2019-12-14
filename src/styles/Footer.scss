@@ -1,0 +1,32 @@
+.Footer {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Bitter;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    ul li a {
+        color: #2780e3;
+        font-size: 35px;
+        transition: opacity 200ms ease-in-out;
+    }
+    
+    ul li a:hover {
+        opacity: 0.6;
+    }
+    
+    p {
+        font-family: Bitter;
+    }
+}

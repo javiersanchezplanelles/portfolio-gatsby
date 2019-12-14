@@ -1,0 +1,24 @@
+.About {
+    font-family: Domine;
+    font-size: 18px;
+    width: 50vw;
+    padding-left: 30px;
+    line-height: 1.4;
+    opacity: 0;
+    transform: translateX(-1%);
+    animation: fadeIn 200ms ease-in 100ms forwards;
+
+    h2 {
+        background-color: black;
+        padding: 5px;
+        color: white;
+        width: fit-content;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
