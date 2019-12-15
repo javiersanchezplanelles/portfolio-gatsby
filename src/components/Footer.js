@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className="Footer">
             <p>{year} &copy; Coded by Javi SP</p>
-            <ul className="Footer">
+            <ul>
                 <li><a href="https://www.linkedin.com/in/javisanchezplanelles"><FaLinkedin /></a></li>
                 <li><a href="https://codepen.io/javisp91"><FaCodepen /></a></li>
                 <li><a href="https://github.com/javisp91"><FaGithub /></a></li> 
