@@ -6,4 +6,17 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Bitter`,
+          `Domine`
+        ],
+      }
+    },
+    `react-particles-js`,
+  ]
 }
