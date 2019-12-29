@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard(props) {
     return(
         <div className="Project__Card">
-            <a href="">
+            <a href={props.link}>
                 <div className="Project__Card__Image">
                     <img src={props.image} alt="" />
                 </div>
