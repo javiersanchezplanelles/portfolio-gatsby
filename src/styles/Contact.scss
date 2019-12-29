@@ -1,0 +1,28 @@
+.Contact {
+    position: relative;
+    margin-top: 5%;
+    padding-left: 30px;
+    font-family: Domine;
+}
+
+.Contact__Container {
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
+    text-align: center;
+
+    p {
+        font-size: 18px;
+    }
+
+    span {
+        font-weight: 700;
+        color: #2780e3;
+    }
+
+    @media screen and (min-width: 600px) {
+        width: 50%;
+    }
+}
