@@ -1,8 +1,8 @@
-import React from 'react';
-import '../styles/Footer.scss';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaCodepen } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
+import React from "react";
+import "../styles/Footer.scss";
+import { FaLinkedin } from "react-icons/fa";
+import { FaCodepen } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
     const year = new Date().getFullYear();
