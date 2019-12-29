@@ -1,0 +1,29 @@
+.Greeting {
+    padding-top: 5%;
+}
+
+.Greeting__Title,
+.Greeting__Subtitle {
+    display: block;
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family: Domine;
+} 
+
+.Greeting__Title {
+    font-size: 54px;
+}
+
+.Greeting__Subtitle {
+    opacity: 0;
+    transform: translateY(10%);
+    animation: slideUp 250ms 1500ms forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
