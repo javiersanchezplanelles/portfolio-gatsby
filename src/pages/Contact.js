@@ -129,7 +129,7 @@ class Contact extends React.Component {
                         }}>                    
                     </Particles>
                     <div className="Contact">
-                        <div class="Contact__Container">
+                        <div className="Contact__Container">
                             <h1>Let's have a chat!</h1>
                             <p>Whether you want to work together or discuss what the best eatery is, 
                             drop me a line at javisplanelles<span>[at]</span>gmail<span>[dot]</span>com</p>

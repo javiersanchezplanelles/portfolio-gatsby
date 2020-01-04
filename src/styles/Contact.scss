@@ -1,7 +1,6 @@
 .Contact {
     position: relative;
-    margin-top: 5%;
-    padding-left: 30px;
+    top: 25vh;
     font-family: Domine;
 }
 
@@ -22,7 +21,7 @@
         color: #2780e3;
     }
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 1024px) {
         width: 50%;
     }
 }
