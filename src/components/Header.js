@@ -19,7 +19,7 @@ const handleKeyPress = (event) => {
 function Header() {
     return(
         <div className="Header" id="js-navList">
-            <Link to="/Home/" className="Header__Home" aria-label="Home">Javi Sanchez Planelles</Link>
+            <Link to="/Home/" className="Header__Home" aria-label="Home">Javi Sánchez Planelles</Link>
             <div className="Header__Mobile" onClick={toggleNav} onKeyPress={handleKeyPress} role="button">
                 <button className="Header__Mobile__Burger" aria-label="Open menu">
                     <FaBars />

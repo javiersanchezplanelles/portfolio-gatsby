@@ -10,7 +10,7 @@ class Contact extends React.Component {
             <div className="Layout__Wrapper__Contact">
                 <Layout>
                     <Helmet>
-                        <title>Javi Sanchez Planelles | Contact</title>
+                        <title>Javi Sánchez Planelles | Contact</title>
                     </Helmet>
                     <Particles
                         width="100%"

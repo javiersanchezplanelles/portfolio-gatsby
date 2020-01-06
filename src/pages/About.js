@@ -7,7 +7,7 @@ function About() {
     return(
         <Layout>
             <Helmet>
-                <title>Javi Sanchez Planelles | About</title>
+                <title>Javi Sánchez Planelles | About</title>
             </Helmet>
             <div className="About">
                 <h2>My coding journey</h2>

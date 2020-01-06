@@ -10,7 +10,7 @@ function Home() {
     return(    
         <Layout>
             <Helmet>
-                <title>Javi Sanchez Planelles | Front-end developer</title>
+                <title>Javi Sánchez Planelles | Front-end developer</title>
             </Helmet>
             <div className="Home">
                 <Particles
