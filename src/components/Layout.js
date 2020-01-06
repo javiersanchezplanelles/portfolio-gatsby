@@ -5,7 +5,7 @@ import "../styles/General.scss";
 
 function Layout({children}) {
     return(
-        <div class="Layout__Wrapper">
+        <div className="Layout__Wrapper">
             <Header />
             {children}
             <Footer />

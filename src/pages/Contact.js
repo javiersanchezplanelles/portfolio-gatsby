@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import Layout from "../components/Layout";
 import "../styles/Contact.scss";
 import Particles from "react-particles-js";
@@ -8,6 +9,9 @@ class Contact extends React.Component {
         return(
             <div className="Layout__Wrapper__Contact">
                 <Layout>
+                    <Helmet>
+                        <title>Javi Sanchez Planelles | Contact</title>
+                    </Helmet>
                     <Particles
                         width="100%"
                         height="100%" 

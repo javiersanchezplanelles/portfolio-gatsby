@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import Layout from "../components/Layout";
 import ProjectContainer from "../components/ProjectContainer";
 import Particles from "react-particles-js";
@@ -8,6 +9,9 @@ import "../styles/Home.scss";
 function Home() {
     return(    
         <Layout>
+            <Helmet>
+                <title>Javi Sanchez Planelles | Front-end developer</title>
+            </Helmet>
             <div className="Home">
                 <Particles
                     width="100%"

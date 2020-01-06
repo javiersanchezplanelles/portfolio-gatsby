@@ -1,10 +1,14 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import Layout from "../components/Layout";
 import "../styles/About.scss";
 
 function About() {
     return(
         <Layout>
+            <Helmet>
+                <title>Javi Sanchez Planelles | About</title>
+            </Helmet>
             <div className="About">
                 <h2>My coding journey</h2>
                 <p>Graduating in Media and Graphic Design gave me my first taste of Web Design, 
