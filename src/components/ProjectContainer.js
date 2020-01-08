@@ -33,42 +33,36 @@ class ProjectContainer extends React.Component {
                 {
                     name: "JRNI",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Drag and drop the correct answer and check how much of a paleonthologist you are!",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576841660/Portfolio/jrni.png",
                     link: "https://www.jrni.com/"
                 },
                 {
                     name: "Naked leaf",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Check the weather on this tv-like app!",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576841427/Portfolio/nakedleaf.png",
                     link : "https://nakedleaf.org/"
                 },
                 {
                     name: "Mother",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Your classic todo list app",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576841123/Portfolio/mother.png",
                     link: "https://www.thisismother.com/"
                 },
                 {
                     name: "Fairwinds",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Drag and drop the correct answer and check how much of a paleonthologist you are!",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576861685/Portfolio/fairwinds.png",
                     link: "https://www.fairwinds.com/"
                 },
                 {
                     name: "Boxfusion",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Check the weather on this tv-like app!",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576861709/Portfolio/boxfusion.png",
                     link : "https://www.boxfusionconsulting.com/"
                 },
                 {
                     name: "MobilityGiant",
                     stack: "HTML, CSS, JavaScript",
-                    info: "Your classic todo list app",
                     image: "https://res.cloudinary.com/dovbrtmkv/image/upload/v1576861722/Portfolio/mobilitygiant.png",
                     link: "https://www.mobilitygiant.co.uk/"
                 }
