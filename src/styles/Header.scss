@@ -84,6 +84,10 @@
             width: 100%;
             animation: slideDown 250ms forwards;
         }
+
+        .Header__List a:first-child {
+            margin-bottom: 10px;
+        }
     }
 }
 
