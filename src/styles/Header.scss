@@ -68,6 +68,10 @@
     .Header.is-shown {
         flex-wrap: wrap;
         
+        .Header__Mobile {
+            margin-left: auto;
+        }
+
         .Header__Mobile__Burger {
             display: none;
         }
